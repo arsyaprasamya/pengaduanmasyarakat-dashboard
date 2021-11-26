@@ -33,6 +33,7 @@ export default function Router() {
       children: [
         // { element: <Navigate to="/dashboard/app" replace /> },
         // { path: '/', element: <Main /> },
+        { path: '/', element: <Dashboard /> },
         { path: 'dashboard', element: <Dashboard /> },
         { path: 'login', element: <Login /> },
         { path: 'register', element: <Register /> },
