@@ -4,7 +4,7 @@
 
 > Dashboard Aduan and View List of Pengaduan
 
-![preview](public/static/preview.png)
+![preview](public/static/ss-dashboard-aduan.png)
 
 | [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
 | ----------------------------------------------------- | :---------------------------------------------------------------- |
