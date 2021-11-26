@@ -1,0 +1,44 @@
+@media screen and (max-width: 450px) {
+  .filter-wrapper {
+    flex-direction: column;
+    > * {
+      flex: 1;
+      &:not(:first-child) {
+        margin-top: 10px;
+      }
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .filter-wrapper {
+    flex-direction: row;
+
+    > * {
+      flex: 1;
+      &:not(:first-child) {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  margin-bottom: 24px;
+
+  [class*='FormControl'] {
+    min-width: 120px;
+  }
+
+  button {
+    padding: 15px 6px;
+  }
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width: 450px) {
+  .filter-wrapper {
+    flex-direction: column;
+  }
+  .filter-wrapper > * {
+    flex: 1;
+  }
+  .filter-wrapper > *:not(:first-child) {
+    margin-top: 10px;
+  }
+  .filter-wrapper button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 451px) {
+  .filter-wrapper {
+    flex-direction: row;
+  }
+  .filter-wrapper > * {
+    flex: 1;
+  }
+  .filter-wrapper > *:not(:first-child) {
+    margin-left: 10px;
+  }
+}
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+.filter-wrapper [class*=FormControl] {
+  min-width: 120px;
+}
+.filter-wrapper button {
+  padding: 15px 6px;
+}
