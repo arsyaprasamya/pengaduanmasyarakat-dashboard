@@ -32,7 +32,7 @@ export default function Router() {
       element: <DashboardLayout />,
       children: [
         // { element: <Navigate to="/dashboard/app" replace /> },
-        { path: '/', element: <Main /> },
+        // { path: '/', element: <Main /> },
         { path: 'dashboard', element: <Dashboard /> },
         { path: 'login', element: <Login /> },
         { path: 'register', element: <Register /> },
