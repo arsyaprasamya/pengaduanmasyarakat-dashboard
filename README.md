@@ -8,8 +8,7 @@
 
 | [Minimal Free](https://minimal-kit-react.vercel.app/) | [Minimal](https://material-ui.com/store/items/minimal-dashboard/) |
 | ----------------------------------------------------- | :---------------------------------------------------------------- |
-| **7** Demo pages                                      |
-| -                                                     |
+| **7** pages                                           |
 | -                                                     | ✓ Dark/Light Mode 🌓                                              |
 | -                                                     | ✓ Design files (Figma & Sketch)                                   |
 
