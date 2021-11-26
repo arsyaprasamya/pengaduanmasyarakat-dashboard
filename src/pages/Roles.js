@@ -129,7 +129,7 @@ export default function Role() {
   const isRoleNotFound = filteredRoles.length === 0;
 
   return (
-    <Page title="Role | Minimal-UI">
+    <Page title="Role">
       <Container>
         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={5}>
           <Typography variant="h4" gutterBottom>
